@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class AuthController extends Controller
@@ -24,4 +25,5 @@ class AuthController extends Controller
         }
         return redirect('/');
     }
+    public f
 }
